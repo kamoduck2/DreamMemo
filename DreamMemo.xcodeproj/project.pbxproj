@@ -14,6 +14,7 @@
 		FF084C5C1FB7F71F008706FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF084C5A1FB7F71F008706FE /* LaunchScreen.storyboard */; };
 		FF084C671FB7F71F008706FE /* DreamMemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF084C661FB7F71F008706FE /* DreamMemoTests.swift */; };
 		FF084C721FB7F71F008706FE /* DreamMemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF084C711FB7F71F008706FE /* DreamMemoUITests.swift */; };
+		FF084C801FB80B73008706FE /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF084C7F1FB80B72008706FE /* AddViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		FF084C6D1FB7F71F008706FE /* DreamMemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DreamMemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF084C711FB7F71F008706FE /* DreamMemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamMemoUITests.swift; sourceTree = "<group>"; };
 		FF084C731FB7F71F008706FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF084C7F1FB80B72008706FE /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				FF084C511FB7F71F008706FE /* AppDelegate.swift */,
 				FF084C531FB7F71F008706FE /* ViewController.swift */,
+				FF084C7F1FB80B72008706FE /* AddViewController.swift */,
 				FF084C551FB7F71F008706FE /* Main.storyboard */,
 				FF084C581FB7F71F008706FE /* Assets.xcassets */,
 				FF084C5A1FB7F71F008706FE /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			files = (
 				FF084C541FB7F71F008706FE /* ViewController.swift in Sources */,
 				FF084C521FB7F71F008706FE /* AppDelegate.swift in Sources */,
+				FF084C801FB80B73008706FE /* AddViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
