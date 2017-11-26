@@ -8,15 +8,21 @@
 import UIKit
 
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate{
+//    cellの数
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-    return contents.count
+        return 3//contents.count
     }
-    
+
+//    何番目か
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell")!
+        cell.textLabel?.text = "aaaaaaaaaa"
         return cell
     }
     
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 100
+    }
     
     @IBOutlet var table:UITableView!
     var contents: [String] = []
